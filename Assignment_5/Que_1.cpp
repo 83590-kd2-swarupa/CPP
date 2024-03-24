@@ -72,7 +72,7 @@ class Person
     void displayPerson()
     {
         cout<<"Name:"<<endl;
-        cout<<"Address:"<<address;
+        cout<<"Address:"<<address<<endl;
         dob.displayDate();
     }
 };
@@ -119,13 +119,13 @@ class Employee
 
 int main()
 {
-    // Date d;
-    // d.acceptDate();
-    // d.displayDate();
+    Date d;
+    d.acceptDate();
+    d.displayDate();
 
-    // Person p;
-    // p.acceptPersonDatails();
-    // p.displayPerson();
+    Person p;
+    p.acceptPersonDatails();
+    p.displayPerson();
 
     Employee e;
     e.acceptEmployee();
