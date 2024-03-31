@@ -15,7 +15,7 @@ class Date
     private:
 
     int day;
-    int  month;
+    int month;
     int year;
 
     public:
@@ -71,7 +71,7 @@ class Person
 
     void displayPerson()
     {
-        cout<<"Name:"<<endl;
+        cout<<"Name:"<<name<<endl;
         cout<<"Address:"<<address<<endl;
         dob.displayDate();
     }

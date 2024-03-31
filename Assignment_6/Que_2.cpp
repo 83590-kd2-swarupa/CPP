@@ -148,7 +148,7 @@ int main()
         case 3:
             for (int i = 0; i < index; i++)
                 {
-
+                    
                     total +=arr[i]->getPrice();
                 };
                 cout << "The total price of all 3 products is " << total << endl;
